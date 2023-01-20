@@ -14,7 +14,7 @@
 #                                                                                                	          #
 # You should have received a copy of the GNU General Public License                              	          #
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.                            	        #
-# curl -sk https://github.com/peibolsillo/RaspiHUB/new/main/RaspiHUBinstalation | sudo bash -               #
+# curl -sk https://github.com/peibolsillo/RaspiHUB/blob/main/RaspiHUBinstalation | sudo bash -               #
 #############################################################################################################
 echo " "
 echo " "
