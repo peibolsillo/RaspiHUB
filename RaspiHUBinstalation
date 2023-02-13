@@ -69,6 +69,17 @@ echo "----------------------------------------------------------------"
 echo " "
 echo " "
 echo " "
+# Watch Tower setup
+echo "----------------------------------------------------------------"
+echo "Commence Watch Tower Setup"
+echo "----------------------------------------------------------------"
+sudo docker run --name="watchtower" -d --restart unless-stopped -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower
+echo "----------------------------------------------------------------"
+echo "Watch Tower Setup Completed"
+echo "----------------------------------------------------------------"
+echo " "
+echo " "
+echo " "
 # MQTT Install
 echo "----------------------------------------------------------------"
 echo "Commence MQTT Setup"
